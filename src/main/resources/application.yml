@@ -1,5 +1,5 @@
 server:
-    port: 8081
+    port: 8080
 app:
     mean: 500.0f
     variance: 100.0f
