@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ThirdPartyApplication
+    
+app:
+    mean: 500.0f
+    variance: 100.0f

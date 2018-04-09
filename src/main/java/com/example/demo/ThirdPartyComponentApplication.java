@@ -46,7 +46,9 @@ public class ThirdPartyComponentApplication {
 		double VARIANCE =  DynamicPropertyFactory
 				.getInstance().getDoubleProperty("app.variance",5.0f).get();;
 
-		    
+		
+		System.out.println("app.Mean"+MEAN);
+		System.out.println("app.variance"+VARIANCE);
 		double timeout=getGaussian(MEAN, VARIANCE);
 		    
 		System.out.println("timeout in ThirdParty:"+timeout);		
