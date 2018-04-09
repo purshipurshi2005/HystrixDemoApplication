@@ -49,7 +49,7 @@ public class ThirdPartyComponentApplication {
 		    
 		double timeout=getGaussian(MEAN, VARIANCE);
 		    
-		System.out.println("timeout:"+timeout);		
+		System.out.println("timeout in TgirdParty:"+timeout);		
 			
 		TimeUnit.MILLISECONDS.sleep((long) timeout);
 		
