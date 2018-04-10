@@ -3,5 +3,5 @@ spring:
     name: ThirdPartyApplication
     
 app:
-    mean: 300.0f
-    variance: 50.0f
+    mean: 500.0f
+    variance: 100.0f

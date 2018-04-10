@@ -44,7 +44,7 @@ public class ThirdPartyComponentApplication {
 			.getInstance().getDoubleProperty("app.mean",100.0f).get();
 		
 		double VARIANCE =  DynamicPropertyFactory
-				.getInstance().getDoubleProperty("app.variance",5.0f).get();;
+				.getInstance().getDoubleProperty("app.variance",5.0f).get();
 
 		
 		System.out.println("app.Mean"+MEAN);
